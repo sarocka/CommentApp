@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--search-->
+<item
+    android:id="@+id/menu_search"
+    android:title="Search"
+    android:icon="@drawable/ic_search"
+    android:iconTint="@color/white"
+    app:showAsAction="ifRoom"
+    app:actionViewClass="androidx.appcompat.widget.SearchView"
+    tools:targetApi="o">
+</item>
+<!--sort-->
+    <item
+        android:id="@+id/sort"
+        app:showAsAction="ifRoom"
+        android:title="Sort comments">
+        <menu>
+            <item
+                android:id="@+id/sortAlphabetically"
+                android:title="Sort alphabetically" />
+            <item
+                android:id="@+id/sortByRating"
+                android:title="Sort by rating" />
+        </menu>
+    </item>
+</menu>

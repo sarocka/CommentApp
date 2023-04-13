@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:padding="10dp">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="home"
+        android:icon="@drawable/ic_baseline_home"
+        android:iconTint="@color/white"
+
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/ic_baseline_message"
+        android:title="message"
+        android:iconTint="@color/white">
+    </item>
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="user"
+        android:iconTint="@color/white">
+    </item>
+
+</menu>
